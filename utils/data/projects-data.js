@@ -1,51 +1,54 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Real Estate Web App",
+    description:
+      "I've developed a comprehensive full-stack web app for Real Estate, offering seamless user registration, property search, profile management, and interaction through posts and chats. Users register with ease using a username, email, and password, accessing their accounts upon login. The property search feature simplifies finding properties via a search bar on the main page. Users can manage profiles, upload images, and add posts with ease, with saved posts for future reference. Additionally, the platform features a direct chat function for user interaction. Experience our platform for efficient real estate management",
+    tools: [
+      "Express",
+      "MongoDB",
+      "NodeJS",
+      "ReactJS",
+      "Cloudinary",
+      "Vercel",
+      "Git",
+      "Socket.io.",
+      "Prisma",
+      "JWT",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "BlogFame",
+    description:
+      "Built a full-stack blog app with Django, focusing on user authentication, CRUD operations, and secure password management. This project deepened my understanding of Django, web development, and cloud deployment. I implemented secure user registration, login, email verification, and CRUD functionalities for managing blog posts. Also, integrated a secure password reset feature triggered by email notifications",
+    tools: ["Python", "Django", "MySQL", "HTML", "CSS", "Bootstrap", "Heroku"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: travel,
+  },
+  {
+    id: 3,
+    name: "BookShelf",
+    description:
+      "Developed a MERN stack web app for educational resource exploration with user authentication, utilizing React, Node.js, Express.js, and MongoDB. The app includes secure login, signup, and logout functionalities, with a free books section available without login. It offers additional course exploration post-login",
+    tools: ["React", "NodeJS", "MongoDB", "Express", "JWT", "Vercel"],
+    code: "",
+    role: "Full Stack Developer",
+    demo: "",
+    image: realEstate,
+  },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
