@@ -1,30 +1,16 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
 ---
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
+# [Built Portfolio With GitHub ](https://github.com/hitiksha-patel/portfolio)
 ---
 
 # Developer Portfolio
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
----
-
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
+### Are you looking to create a professional portfolio website that stands out? Look no further! With the Developer Portfolio template, you can effortlessly craft a personalized portfolio that showcases your skills and projects. Our website is designed with user-friendliness and easy customization in mind, making it ideal for both developers and freelancers. Start building your unique online presence today!
 
 ---
 
 ## Table of Contents :scroll:
 
 - [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
 - [Installation](#installation-arrow_down)
 - [Getting Started](#getting-started-dart)
 - [Usage](#usage-joystick)
@@ -40,7 +26,6 @@
 - SKILLS
 - PROJECTS
 - EDUCATION
-- BLOG
 - CONTACTS
 
 ---
@@ -109,7 +94,7 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/hitiksha-patel/portfolio/tree/main/utils/data).
 
 Eg:
 
@@ -118,17 +103,17 @@ export const personalData = {
   name: "ABU SAID",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  description: "My name is ABC....",
+  email: "example@gmail.com",
+  phone: "+00000000000",
+  address: "City, Province",
+  github: "https://github.com/hitiksha-patel/",
+  facebook: "https://www.facebook.com/",
+  linkedIn: "https://www.linkedin.com/in/hitiksha-patel/",
+  twitter: "https://twitter.com/",
+  stackOverflow: "https://stackoverflow.com/users/",
+  leetcode: "https://leetcode.com/",
+  devUsername: "XYZ123",
   resume: "...",
 };
 ```
