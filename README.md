@@ -92,6 +92,7 @@ NEXT_PUBLIC_GTM = # For site analytics
 NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
 NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
+RESUME = "Google drive link"
 ```
 
 ### Then, Customize data in the `utils/data` [folder](https://github.com/hitiksha-patel/portfolio/tree/main/utils/data).
