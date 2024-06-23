@@ -2,6 +2,8 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+import AnimationLottie from "../../helper/custom-lottie";
+import lottieFile from "/public/lottie/software.json";
 
 function AboutSection() {
   return (
@@ -22,13 +24,15 @@ function AboutSection() {
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
-          <Image
+          <AnimationLottie animationPath={lottieFile} />
+
+          {/* <Image
             src={personalData.profile}
             width={450}
             height={380}
             alt=""
             className="rounded-lg transition-all duration-1000  hover:grayscale-0 hover:scale-110 cursor-pointer"
-          />
+          /> */}
         </div>
       </div>
     </div>
