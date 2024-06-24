@@ -74,6 +74,7 @@ import wolframalpha from "/public/svg/skills/wolframalpha.svg";
 import wordpress from "/public/svg/skills/wordpress.svg";
 import nodeJS from "/public/svg/skills/nodeJS.svg";
 import ubuntu from "/public/svg/skills/ubuntu.svg";
+import springboot from "/public/svg/skills/springboot.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -230,6 +231,8 @@ export const skillsImage = (skill) => {
       return nodeJS;
     case "ubuntu":
       return ubuntu;
+    case "springboot":
+      return springboot;
     default:
       break;
   }

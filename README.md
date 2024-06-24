@@ -119,10 +119,6 @@ export const personalData = {
 };
 ```
 
-`devUsername` Used for fetching blog from `dev.to`.
-
----
-
 ---
 
 # Packages Used :package:
