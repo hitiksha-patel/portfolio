@@ -7,13 +7,13 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Python Developer",
+    title: "Software Developer",
     company: "Latitude Technolabs Pvt. Ltd.",
     duration: "(Jun 2022 - Jan 2024)",
   },
   {
     id: 3,
-    title: "Python Developer",
+    title: "Software Developer",
     company: "Learniphi Technology Pvt. Ltd.",
     duration: "(Apr 2021 - May 2022)",
   },
