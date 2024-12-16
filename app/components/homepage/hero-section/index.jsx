@@ -124,6 +124,17 @@ function HeroSection() {
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">languages:</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">English</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">French</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Hindi</span>
+
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
                   hardWorker:

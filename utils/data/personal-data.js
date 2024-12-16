@@ -5,7 +5,7 @@ export const personalData = {
   description:
     "My name is Hitiksha Chaudhari. I am a passionate and professional programmer with a strong self-learning attitude. I thrive on exploring new technologies and I am dedicated to problem-solving.I have a deep love for all aspects of web application development and aim to make the web more accessible to everyone. My core skill is Python, and I enjoy using it for most of my projects.I am open to job opportunities that align with my skills and interests.",
   email: "hitikshapatel23@gmail.com",
-  phone: "+15148918221",
+  // phone: "+15148918221",
   address: "Montreal, QC",
   github: "https://github.com/hitiksha-patel",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
