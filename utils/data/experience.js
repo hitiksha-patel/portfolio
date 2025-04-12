@@ -1,9 +1,9 @@
 export const experiences = [
   {
     id: 1,
-    title: "Self Employed",
-    company: "Code and Build Something everyday",
-    duration: "(Apr 2024 - Present)",
+    title: "Infrastructure & Automation Developer",
+    company: "Gameloft Montreal",
+    duration: "(Apr 2025 - Present)",
   },
   {
     id: 2,
